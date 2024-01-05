@@ -3,7 +3,7 @@ class Car:
 
     total = 0  # class variable
 
-    def __init__(self, make, model, year, color, mileage=0, quantity=1):
+    def __init__(self, make, model, year, color, quantity=1, mileage=0):
         """Initializes the car's attributes."""
         Car.total += 1
         self.id = Car.total

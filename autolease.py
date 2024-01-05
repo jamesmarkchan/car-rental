@@ -11,10 +11,10 @@ class AutoLease:
         "month": 980,
     }
     cars = [
-        Car("Toyota", "Corolla", 2020, "blue"),
-        Car("Ford", "Mustang", 2021, "green"),
-        Car("Honda", "Civic", 2019, "red"),
-        Car("Chevy", "Volt", 2016, "gray")
+        Car("Toyota", "Corolla", 2020, "blue", 1),
+        Car("Ford", "Mustang", 2021, "green", 2),
+        Car("Honda", "Civic", 2019, "red", 2),
+        Car("Chevy", "Volt", 2016, "gray", 1)
     ]
     users = []
     rentals = []
